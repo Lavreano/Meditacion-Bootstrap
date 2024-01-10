@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    }
+    
+
+html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+
+section {
+        margin: 4.5em 3em;
+      }      
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+      }
+      
+      h2 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 1em;
+      }
+      
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-bottom: 1.5em ;
+      }
+      
+      h4 {
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+      
+      p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 2rem;
+      }
+
+      .Seccion-Fondo {
+        background-color: #F1F4FB;
+        max-width: 100%;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        box-sizing: border-box;
+      }
+      
+.navbar-nav .nav-link {
+ margin-right: 1.5em;
+ color: white;
+ transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #86C059;
+  border-bottom: 2px solid #86C059;
+  }
+
+.text-left {
+    width: 50%; 
+    height: auto; 
+    position: absolute;
+    bottom: 6em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1.2em;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.text-left p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.8rem;
+}
+
+.boton-home {
+  width: 10em;
+  padding: 1em;
+  margin-top: 1em;
+    background-color: #86C059;
+}
+
+
+.MarginMeditacion {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.Beneficios-Articulos {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.MarginParrafoPasos {
+  padding: 1em;
+  margin-left: 2em;
+}
+
+.MarginParrafos {
+  padding: 1em;
+  margin-left: 2em;
+}
+
+.youtubemargin {
+  margin: 4em 0;
+}
+
+.ParrafoIndividual {
+padding-right: 2em;
+}
+
+.MarginRecursos {
+  margin-top: 4em;
+}
+
+.MarginRecursosIconos {
+margin-right: 2em;
+}
+
+.RecursosIconos {
+  padding: 1.5em 0;
+}
+
+.Formulario {
+  background: linear-gradient(to bottom, #3A5985, #618FCA);;
+          width: 90%;
+          height: auto;
+          border-radius: 2em;
+          padding: 1.5em 6em;
+          margin: 0 auto;
+  }
+  
+
+.botoncolor {
+  margin-top: 1em;
+  background-color: #86C059;
+  width: 100%;
+}
+
+.Formulario h3 {
+  color: white;
+  text-align: center;
+}
+
+.form-label {
+  color: white;
+}
+
+.MarginContactanos {
+  margin-bottom: 2em;
+}
+
+footer {
+  background-color: #3A5985;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+nav ul li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+footer ul li a {
+  margin: 4em;
+  text-decoration: none;
+  margin-right: 1.5em;
+ color: white;
+ transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+footer ul li a:hover {
+  color: #86C059;
+  border-bottom: 2px solid #86C059;
+}
+
+footer h2 {
+  margin: 2em 0;
+}
+
+.marginiconos {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.datosalumno {
+  display:flex;
+  flex-wrap: wrap ;
+  flex: 1;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 2em;
+}
+
+.datosalumno p {
+  font-size: 14px;
+  margin: 2em 2em;
+  margin-bottom: -1em;
+  text-align: left;
+}
+
+.SombrasImg {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 0.5s ease;
+}
+
+.SombrasImg:hover {
+  transform: scale(1.1);
+}
+
+iframe {
+  width: 100%;
+}
