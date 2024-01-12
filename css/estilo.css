@@ -146,7 +146,7 @@ margin-right: 2em;
           width: 90%;
           height: auto;
           border-radius: 2em;
-          padding: 1.5em 6em;
+          padding: 1.5em 3em;
           margin: 0 auto;
   }
   
@@ -232,4 +232,70 @@ footer h2 {
 
 iframe {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) { 
+  .card-banner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  img {
+    width: 100%;
+  }
+
+  .guia-columna {
+    display: grid;
+  }
+  .guia {
+    display: grid !important;
+    place-items: center; 
+  }
+  .guia img {
+    margin-top: 2em;
+    width: 50%;
+    height: auto;
+  }
+
+  .consejos-columna {
+    display: grid;
+  }
+
+  .consejos {
+    display: grid !important;
+    place-items: center; 
+  }
+
+  .consejos img {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 40%;
+    height: auto;
+  }
+
+  .recursos-columna {
+    display: grid;
+  }
+
+  .recursos {
+    display: grid !important;
+    place-items: center; 
+  }
+
+  .recursos img {
+    margin-top: 2em;
+    width: 40%;
+    height: auto;
+  }
+
+  .marginiconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .img2 {
+    width: 215%;
+    height: auto;
+  }
 }
